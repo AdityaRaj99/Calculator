@@ -1,0 +1,148 @@
+.buttonc{
+    grid-area:calc;
+}
+
+.button-divide{
+    grid-area:divide;
+}
+
+.button-multiply{   
+    grid-area:multiplyy;
+}
+
+.button-sub{   
+    grid-area:subtractt;
+}
+
+.button-7{   
+    grid-area:seven;
+}
+
+.button-8{   
+    grid-area:eight;
+}
+
+.button-9{
+    grid-area:nine;
+}
+
+.button-4{
+    grid-area:four;
+}
+
+.button-5{
+    grid-area:five;
+}
+
+.button-6{   
+    grid-area:six;
+}
+
+.button-1{   
+    grid-area:one;
+}
+
+.button-2{
+    grid-area:two;
+}
+
+.button-3{   
+    grid-area:three;
+}
+
+.button-add{   
+    grid-area:addd;
+}
+
+.button-enter{  
+    grid-area:enter;
+}
+
+.button-0{  
+    grid-area:zeroo;
+}
+
+.button-dot{  
+    grid-area:dott;
+}
+
+.button-delete{
+   grid-area: delete;
+}
+
+.row-1{
+   color: rgb(243, 241, 241);
+       background-color: #45a73c;
+       font-size: 33px;
+       height: 45px;
+       text-align: right ;
+       padding-right: 4px;
+       padding-top:10px;
+       overflow:auto;  
+       text-overflow: ellipsis;    
+       border: 10px solid rgba(46, 107, 21, 0.8);   
+       
+   }
+
+.container{
+    margin-left:30%;
+    margin-right: 27%;
+    margin-top: 1px;
+   }
+   
+.row-2{ 
+ background-color: #3f3c3c;
+ padding: 15px;
+ height: 430px;
+ 
+  
+   grid-column-gap: 5px;
+   grid-row-gap: 5px;
+
+   display: grid;
+   
+   grid-template-areas:'calc divide multiplyy subtractt'
+                       'seven eight nine addd'
+                       'four five six addd'
+                       'one two three enter'
+                       'zeroo delete dott enter';
+}
+
+[class*="button-"]{
+   background-color: #eeedf1;
+ border:6px solid rgba(0, 0, 0, 0.8);
+ padding:8px;
+ font-size: 35px;
+ text-align: center;
+}
+
+[class*='button-']:hover {
+   background-color: rgb(32, 18, 18);
+   color: cornsilk;
+   cursor: pointer;
+}
+
+#priviou{  
+    border: 9px solid rgba(61, 51, 51, 0.979);
+    background-color: #3f3c3c;
+    font-size: 26px;
+    overflow:auto;
+    color: ivory;
+    text-align: left;   
+    padding-top:1px;
+    padding-bottom: 10px;
+   
+}
+
+.buttonc{
+ background-color: #ec4646;
+ border: 9px solid rgba(0, 0, 0, 0.8);
+ font-size: 26px;
+ color: white;
+ text-align: center;
+ padding-top: 10%;
+}
+
+.buttonc:hover{
+   background-color: #621919;
+}
